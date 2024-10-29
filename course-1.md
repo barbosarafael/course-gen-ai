@@ -8,3 +8,31 @@
 - Inferência: quando o modelo gera um resultado, seja predição do texto, imagem, etc
 - Entity extracion: identificar pessoas/coisas em artigos/notícias/texto/imagem
 - Anteriormente era usado RNN para a geração de texto
+- Transformers
+  - Pesos de atenção
+  - Todos os "bigramas" são testados e validados para ver qual a combinação que tem maior probabilidade de acontecer  (self-attention)
+  - Tokens: Conversão da palavra para número
+  - Passo a passo
+    - Quebrar o texto em tokens
+    - Entra no encoder
+    - Embedding
+- GPT e LLama: decoder only models
+- Context window: contexto que passamos via prompt engineering. Quanto mais contexto e exemplos maior a possibilidade de dar melhores respostas. Poucas palavras.
+  - Zero shot inference: sem nenhum contexto, pedir uma tarefa
+  - Few shot inference: adicionar exemplos para pedir uma tarefa
+- Inference parameters:
+  -   Max new tokens
+  -   Sample top K
+  -   Sample top P
+  -   Temperature
+- GenAI lifecycle
+  - Scope
+  - Select a model
+  - Adapt and alaign model
+    - Prompt engineering
+    - Fine-tuning
+    - Aligh with human decision
+    - Evaluate
+  - Application integration
+    - Optimize and deploy model for inference
+    - Augment model and build LLM-powered applications
