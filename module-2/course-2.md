@@ -20,4 +20,3 @@
         - Fraction
         - Armazena com menor precisão
         - BFLOAT16 é uma boa ideia
-    - 
