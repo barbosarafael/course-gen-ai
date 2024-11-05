@@ -12,4 +12,12 @@
   - T5
   - Span corruption
   - Sentinel token
-  - 
+- COmputational challenges
+    - CUDA out of memory
+    - Quantization: reduce data types -> INT32 to INT16/8
+        - Sign
+        - Exponent
+        - Fraction
+        - Armazena com menor precisão
+        - BFLOAT16 é uma boa ideia
+    - 
