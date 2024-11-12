@@ -20,3 +20,12 @@
   - Prompt have to made more generalistic
   - Fine tuning on multiple tasks
   - Consider Parameter Efficient Fine-tuning 
+
+# Multi-task, instruction fine-tuning
+
+- Avoiding the issue of forgetting others tasks
+- Flan family models: Fine-tuned LAnguage Net
+  - Specific set of instrutctions used to perform instruction fine-tuning
+  - Flant-T5: Fine-tuned version of pre-trained T5 
+  - SAMSum: Dialogue open dataset
+  - 
